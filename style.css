@@ -1,0 +1,12 @@
+.home-page{
+    background: linear-gradient(102.3deg, rgb(147, 39, 143) 5.9%, rgb(234, 172, 232) 64%, rgb(246, 219, 245) 89%);
+
+}
+.name{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
