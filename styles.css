@@ -6,27 +6,20 @@ h2{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-top: 240px;
-    margin-left: 200px;
-    margin-right: 480px;
-    margin-bottom:240px;
+    margin-top: 200px;
+    margin-left: 195px;
+    margin-right: 400px;
+    margin-bottom:320px;
 
 }
-#name{
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    position: absolute;
-    top: 275px;
-    left: 250px;
-}
+
 #home-image{
-    height: 600px;
+    height: 550px;
     width: auto;
     float: right;
     background-color: transparent;
     position: absolute;
-    top: 70px;
+    top: 20px;
     right: 60px;
     background-color: transparent;
     background-image: none;
@@ -36,7 +29,101 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     position: absolute;
-    top: 380px;
-    left: 410px;
+    top: 350px;
+    left: 460px;
    
 }
+
+header {
+    background-color: black; 
+    color: #ed28d0; /* Text color for the header */
+    padding: 10px 0; /* Adjust the padding as needed */
+    position: absolute;
+    top: 0%;
+    width: 1380px;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+  
+    
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px; /* Adjust the spacing between links */
+    color: #ed28d0;
+   
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+/* Style the navigation links' text */
+nav a {
+    text-decoration: none;
+    color: #fff; /* Link text color */
+    font-weight: bold; /* You can adjust the font weight as needed */
+    color: #ed28d0;
+
+}
+
+/* Style the navigation links on hover */
+nav a:hover {
+    text-decoration: underline;
+    text-align: center;
+} 
+
+.name {
+    position: absolute;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 40px;
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+    top: 230px;
+    left: 400px;
+  }
+  .name span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    color: black;
+   
+    animation: typing 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes typing {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  #contact-button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: #ed28d0;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    padding-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    
+    border: 2px solid #ed28d0
+  }
