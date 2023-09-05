@@ -21,8 +21,22 @@ h2{
     left: 250px;
 }
 #home-image{
-    height: 500px;
+    height: 600px;
     width: auto;
     float: right;
     background-color: transparent;
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    background-color: transparent;
+    background-image: none;
+}
+#description{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: absolute;
+    top: 380px;
+    left: 410px;
+   
 }
