@@ -127,3 +127,63 @@ nav a:hover {
     
     border: 2px solid #ed28d0
   }
+  #about-me{
+    background-color: #f7e9f6;
+    border: 1px solid black;
+   
+  }
+  #me{
+    font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-top:70 px;
+    text-align: center;
+  }
+  #about-mee{
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+ 
+  }
+  #about-image{
+    height: 500px;
+    width: auto;
+    margin-right: 500px;
+    margin-left: 40px;
+    position: absolute;
+    top: 600px;
+    bottom: 100px;
+ 
+  }
+  #personal-info{
+    text-align: left;
+    font: 20px;
+    font-family: 'Times New Roman', Times, serif;
+     margin-left: 500px;
+     
+     margin-bottom: 40px;
+  }
+  #personal-in{
+  text-align: left;
+  font: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 800px;
+
+   margin-bottom: 40px;
+  }
+  #about{
+   position: absolute;
+   top: 856px;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+ 
+  
+ 
