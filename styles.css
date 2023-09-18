@@ -271,3 +271,147 @@ margin-bottom: 50px;
     transform: rotateY(-40deg) rotateX(-43deg);
   }
 }
+#certifications{
+  background-color: #f7e9f6;
+  border: 1px solid black;
+  
+ 
+}
+#certifica{
+  font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-top:70 px;
+    text-align: center;
+    animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+    
+}
+#fCC{
+  height: 250px;
+  width: 400px;
+  border: solid black 2px;
+  margin-top: 85px;
+  margin-left: 130px;
+  align-items: center;
+  animation: showup 15s infinite;
+}
+#badiworks{
+  height: 250px;
+  width: 400px;
+  border: solid black 2px;
+  margin-top: -255px;
+  margin-right: 25px;
+  margin-left: 700px;
+  animation: showup 15s infinite;
+}
+#devops{
+  height: 250px;
+  width: 400px;
+  border: solid black 2px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 418px;
+ animation: showup 15s infinite;
+}
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+#services{
+  background: #d99cd3;
+  border: 1px solid black;
+}
+#my-work{
+  font-size: 40px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-top:70 px;
+    text-align: center;
+    animation: typingg 2s steps(30, end) forwards, blinking 1s infinite;
+}
+#services p{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: medium;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#services h4{
+  text-align: center;
+  margin-top: 30px;
+}
+#contact{
+  background: #f7e9f6;
+  border: 1px solid black;
+}
+#together{
+  font-size: 40px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-right: 100px;
+  margin-top:70 px;
+  text-align: center;
+
+}
+#contact-me{
+  
+
+  margin-top: 50px ;
+  margin-left: 250px;
+  margin-bottom: 50px;
+ 
+}
+#contact-me h5{
+  display: inline-block;
+padding: 10px;
+}
+#contact-me p{
+  display: inline-block;
+padding: 10px;
+overflow: hidden;
+white-space: nowrap;
+width: 0;
+animation: typingg 2s steps(30, end) forwards, blinking 1s infinite;
+}
+#home-pic{
+  height: 485px;
+  width: 350px;
+ 
+  position: absolute;
+  top: 3620px;
+  right: 100px;
+}
+@keyframes typingg {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blinking {
+  0% {border-right-color: transparent}
+  50% {border-right-color: black}
+  100% {border-right-color: transparent}
+}
