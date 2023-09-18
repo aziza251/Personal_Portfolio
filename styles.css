@@ -351,7 +351,7 @@ margin-bottom: 50px;
     margin-right: 100px;
     margin-top:70 px;
     text-align: center;
-    animation: typingg 2s steps(30, end) forwards, blinking 1s infinite;
+    animation: showup 15s infinite;
 }
 #services p{
  font-family: 'Times New Roman', Times, serif;
@@ -359,6 +359,7 @@ margin-bottom: 50px;
   color: black;
   text-align: center;
   margin-bottom: 20px;
+  
 }
 #services h4{
   text-align: center;
@@ -376,6 +377,7 @@ margin-bottom: 50px;
   margin-right: 100px;
   margin-top:70 px;
   text-align: center;
+  animation: showup 15s infinite;
 
 }
 #contact-me{
@@ -396,7 +398,8 @@ padding: 10px;
 overflow: hidden;
 white-space: nowrap;
 width: 0;
-animation: typingg 2s steps(30, end) forwards, blinking 1s infinite;
+
+animation: typingg 2s steps(20, end) forwards, blinking 1s infinite;
 }
 #home-pic{
   height: 485px;
