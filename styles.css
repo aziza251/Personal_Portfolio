@@ -1,3 +1,4 @@
+@media screen and (min-width: 480px){  
 #home-page{
     background: linear-gradient(102.3deg, rgb(147, 39, 143) 5.9%, rgb(234, 172, 232) 64%, rgb(246, 219, 245) 89%);
     border: 1px solid black;
@@ -351,7 +352,7 @@ margin-bottom: 50px;
     margin-right: 100px;
     margin-top:70 px;
     text-align: center;
-    animation: showup 15s infinite;
+    animation: showup 5s infinite;
 }
 #services p{
  font-family: 'Times New Roman', Times, serif;
@@ -377,7 +378,7 @@ margin-bottom: 50px;
   margin-right: 100px;
   margin-top:70 px;
   text-align: center;
-  animation: showup 15s infinite;
+  animation: showup 7s infinite;
 
 }
 #contact-me{
@@ -417,4 +418,5 @@ animation: typingg 2s steps(20, end) forwards, blinking 1s infinite;
   0% {border-right-color: transparent}
   50% {border-right-color: black}
   100% {border-right-color: transparent}
+}
 }
