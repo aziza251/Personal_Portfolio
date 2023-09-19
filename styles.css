@@ -407,7 +407,7 @@ animation: typingg 2s steps(20, end) forwards, blinking 1s infinite;
   width: 350px;
  
   position: absolute;
-  top: 635%;
+  top: 633%;
   right: 10%;
 }
 @keyframes typingg {
